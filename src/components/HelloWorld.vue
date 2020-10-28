@@ -1,6 +1,15 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
+    <h1 class="text-6xl font-bold text-blue-300">{{ msg }}</h1>
+   <!-- <div class="max-w-sm mx-auto flex p-6 bg-white rounded-lg shadow-xl">
+      &lt;!&ndash;<div class="flex-shrink-0">
+        <img class="h-12 w-12" src="/img/logo.svg" alt="ChitChat Logo">
+      </div>&ndash;&gt;
+      <div class="ml-6 pt-1">
+        <h4 class="text-xl text-gray-900 leading-tight">ChitChat</h4>
+        <p class="text-base text-gray-600 leading-normal">You have a new message!</p>
+      </div>
+    </div>
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
       check out the
@@ -26,7 +35,7 @@
       <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
       <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
+    </ul>-->
   </div>
 </template>
 
