@@ -1,5 +1,12 @@
 # tailwind-test
 
+## Construcción de Imagen
+
+```
+docker build . -t cybersyn-landpage
+docker run -d -p 8080:80 cybersyn-landpage
+```
+
 ## Project setup
 ```
 npm install
