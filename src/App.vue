@@ -82,7 +82,7 @@
               <h2 class="text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
                 <span class="text-indigo-600">Cybersyn </span>High Performance IT
                 <br class="xl:hidden">
-                <span class="text-indigo-600">Services</span>
+                <span class="text-indigo-600">Consulting Services</span>
               </h2>
               <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                 Bienvenidos a Cybersyn High Performance IT Services. Cybersyn permite externalizar la administración de
@@ -211,8 +211,9 @@
           </div>
           <div class="mt-4 md:mt-0 md:ml-6">
             <div class="uppercase tracking-wide text-sm text-indigo-600 font-bold">DevSecOps</div>
-            <a href="#" class="block mt-1 text-lg leading-tight font-semibold text-gray-900 hover:underline">Finding customers for your new business</a>
-            <p class="mt-2 text-gray-600">Getting a new business off the ground is a lot of hard work. Here are five ideas you can use to find your first customers.</p>
+            <a href="#" class="block mt-1 text-lg leading-tight font-semibold text-gray-900 hover:underline">Aplicamos metodologias modernas a TI</a>
+            <p class="mt-2 text-gray-600">El uso de tecnologias no es opción para las empresas a toda escala. DevOps, Cloud Computing, Infraestructura
+              como código,Configuration Management.</p>
           </div>
         </div>
       </div>
