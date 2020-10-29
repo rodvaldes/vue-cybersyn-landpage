@@ -1,13 +1,5 @@
 <template>
- <!-- <img alt="Vue logo" src="./assets/logo.png">-->
-     <HelloWorld msg="Bienvenido a esta aplicación Vue"/>
-  <div id="app" class="flex container h-screen w-full">
-    <!--Side Nav-->
-    <!--<div class="w-1/2 border-r border-lighter">
-      <button class="h-12 w-12 hover:bg-lightblue text-3xl text-blue">
-        <i class="fab fa-twitter"></i>
-      </button>
-    </div>-->
+  <div id="app">
     <!--
   Tailwind UI components require Tailwind CSS v1.8 and the @tailwindcss/ui plugin.
   Read the documentation to get started: https://tailwindui.com/documentation
@@ -36,9 +28,9 @@
                 </div>
               </div>
               <div class="hidden md:block md:ml-10 md:pr-4">
-                <a href="#" class="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">Product</a>
-                <a href="#" class="ml-8 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">Features</a>
-                <a href="#" class="ml-8 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">Marketplace</a>
+                <a href="#" class="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">Servicios</a>
+                <a href="#" class="ml-8 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">Productos</a>
+                <a href="#" class="ml-8 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">Mercado</a>
                 <a href="#" class="ml-8 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">Company</a>
                 <a href="#" class="ml-8 font-medium text-indigo-600 hover:text-indigo-900 transition duration-150 ease-in-out">Log in</a>
               </div>
@@ -88,17 +80,18 @@
           <main class="mt-10 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
             <div class="sm:text-center lg:text-left">
               <h2 class="text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
-                Data to enrich your
+                <span class="text-indigo-600">Cybersyn </span>High Performance IT
                 <br class="xl:hidden">
-                <span class="text-indigo-600">online business</span>
+                <span class="text-indigo-600">Services</span>
               </h2>
               <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.
+                Bienvenidos a cybersn High Performance IT Services. Cybersyn permite externalizar la administración de
+                servicios TI como email, web, desarrollo de aplicaciones multiplataforma.
               </p>
               <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div class="rounded-md shadow">
                   <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
-                    Get started
+                    Ingresar
                   </a>
                 </div>
                 <div class="mt-3 sm:mt-0 sm:ml-3">
@@ -120,12 +113,12 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+//import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    //HelloWorld
   }
 }
 </script>
