@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="0h3">
     <!--
   Tailwind UI components require Tailwind CSS v1.8 and the @tailwindcss/ui plugin.
   Read the documentation to get started: https://tailwindui.com/documentation
@@ -224,12 +224,11 @@
 </template>
 
 <script>
-//import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
-    //HelloWorld
+
   }
 }
 </script>
